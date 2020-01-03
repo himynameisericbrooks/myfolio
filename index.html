@@ -1,19 +1,21 @@
 <!DOCTYPE html>
     <head>
-    <title>MYFOLIO Website Replication</title>
+    <title>MYPORTFOLIO Website Replication</title>
     <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css/main.css" />
     <script src="https://use.fontawesome.com/9a77ea3aef.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <!-- viewport media queries  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1,0">
     </head>
     <body>
         <!-- Navigation bar -->
         <nav>
             <div class="title">
-                <a href="#"><strong>MY<span>FOLIO</strong></span></a>
+                <a href="#"><strong>MY<span>PORTFOLIO</strong></span></a>
             </div>
             <div class="list">
-                <ul>
+                <ul class='list-ul'>
                     <li>
                         <a href="#">HOME</a>
                     </li>
@@ -29,39 +31,100 @@
                 </ul>
             </div>
         </nav>
-        <div>
-                <h3>Lorem ipsum dolor sit iusmod tempor</h3>
-            <h1>INCIDIDUNT BOR</h1>
-            <p>Orem ipsum dolor sit amet, consectetur</p>
-            <img src="img/break.png" alt="line-break squiggle">
-            <button>KNOW MORE</button>
+        <!-- Lorem -->
+        <div class='wrapper'>
+            <div class="incididunt">
+                <h1>THIS IS MY PORTFOLIO</h1>
+                <h2>LOOK AT IT.<br>LOVE IT.</h2>
+                <p>It is the best thing you will ever see</p>
+                <img src="img/break.png" alt="line-break squiggle">
+                <button>YOU KNOW IT</button>
+            </div>
         </div>
-        <div>
+        <!-- About me -->
+        <div class="about">
             <h2>ABOUT ME</h2>
             <img src='img/sectionbreak.png' alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliguq. Ut enim ad minim<br>veniam, <span>quis nostrud exercitation ullamco</span> laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor.</p>
-                <div>
-                    icon
-                    <h4>Title goes here</h4>
-                    <p>nsectetur adipiscing elit, sed do elusmod tempor incididunt ut labore et</p>
+            <p>I am Brad Pitt adjacent. Everyone thinks so. If you don't, it's okay tho.<br>But you will be better off if you do.<span> Just think about all the fantastic things I could bring to your life.</span> You know that we should be friends and that I will be your new Jedi Master.</p>
+            <div class="title-box">
+                <div class="box">
+                        <i class="fa fa-globe"></i>
+                    <h4>This is a Title</h4>
+                    <p>It is a very good title. One of the best in my humble opinion.</p>
                 </div>
-                <div>
-                        icon
-                        <h4>Title goes here</h4>
-                        <p>nsectetur adipiscing elit, sed do elusmod tempor incididunt ut labore et</p>
+                <div class="box">
+                    <i class="fa fa-search"></i>
+                    <h4>Hat Wearer</h4>
+                    <p>But only on really sunny days when the clouds are away.</p>
                 </div>
-                <div>
-                            icon
-                            <h4>Title goes here</h4>
-                            <p>nsectetur adipiscing elit, sed do elusmod tempor incididunt ut labore et</p>
+                <div class="box">
+                    <i class="fa fa-cube"></i>
+                    <h4>Elk are Scary</h4>
+                    <p>They are so freaking huge. They're like deer on steroids. OMG bro.</p>
                 </div>
-            <div>
+                <div class="box">
+                    <i class="fa fa-signal"></i>
+                    <h4>I Listen</h4>
+                    <p>I let your vocal chords vibrate the air and tickle my ear hairs.</p>
+                </div>
+            </div>
+        </div>
+<!-- Services -->
+        <div class="services">
+            <div class="wrap">
                 <h2>SERVICES</h2>
                 <img src='img/sectionbreak.png' alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor<br>incididunt ut labore et dolore manga aliqua.
+                <p>I will give you a high-five once per day and tell you that you are the best there ever was (even though I know that I am really the best there ever was).<br>I can teach you how to:</p>
+                <div class="service-title">
+                    <i class="fa fa-music"></i>
+                    <h4>Open Your Mind</h4>
+                    <p>Hear the sweet echos of the past flooding through the proverbial conch of your mind.</p>
+                </div>
+                <div class="service-title">
+                    <i class="fa fa-motorcycle"></i>
+                    <h4>Test the Limits</h4>
+                    <p>Rebel and make your mom mad sometimes. It's okay. Say sorry and be free.</p>
+                </div>
+                <div class="service-title">
+                    <i class="fa fa-fire-extinguisher"></i>
+                    <h4>Unburn Those Bridges</h4>
+                    <p>Reconnect with those that you have wronged and those who have wronged you.</p>
+                </div>
+                <div class="service-title">
+                    <i class="fa fa-shower"></i>
+                    <h4>Cleanse Your Body</h4>
+                    <p>Cleanse the negative toxins out so that you can become one with the mother-god once again.</p>
+                </div>
+            </div>
+        </div>
+<!-- Contact me -->
+        <div class="contact">
+            <h2>CONTACT ME</h2>
+            <img src='img/sectionbreak.png' alt="">
+            <p>Talk to me. We'll chat, make a plan and you will have no worries. Trust me.</p>
+            <div class="form">
+                <label>NAME</label>
+                <br>
+                <input type="text">
+                <br><br><br>
+                <label>EMAIL ADDRESS</label>
+                <br>
+                <input type="email">
+                <br><br><br>
+                <label>MESSAGE</label>
+                <br><br>
+                <textarea rows="3"></textarea>
+                <br><br><br>
+                <button>SUBMIT</button>
+            </div>
+        </div>
 
-                    </p>
-            </div>   
+
+<!-- Footer -->
+        <div class="footer">
+            <div>
+                <p>&copy; MYPORTFOLIO</p>
+            </div>
         </div>
     </body>
 </html>
